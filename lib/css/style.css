@@ -1,0 +1,166 @@
+@font-face {
+	font-family: 'Comic Sans Blod';
+	src: url('../../fonts/Comic Sans Blod.ttf')
+}
+@font-face {
+	font-family: 'Comic Sans Normal';
+	src: url('../../fonts/Comic Sans Normal.ttf')
+}
+body {
+	background-color: #cfcfcf;
+	overflow: hidden;
+	font-family: "Microsoft YaHei","微软雅黑",sans-serif
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type:none;
+}
+
+/*头部*/
+.header {
+	height: 70px;
+	width: 100%;
+	background-image: url('../../images/logo.png');
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+/*弹窗*/
+.sweet-alert {
+	position: absolute;
+	bottom: 0;
+	z-index: 200;
+	width: 100%;
+	height: 100%;
+}
+.alert-body {
+	width: 50%;
+	height: 50%;
+	background-color: #b7b6bb;
+	left: 25%;
+    top: 25%;
+    position: absolute;
+    z-index: 300;
+    font-size: 26px;
+    box-shadow: 12px 13px 0px #e3e2e3
+}
+.alert-body .alert-close {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+    right: -20px;
+    top: -20px;
+	background: url('../../images/close.png') no-repeat;
+    cursor: pointer
+}
+.alert-body > p{
+	text-align: center;
+	font-weight: bold;
+	margin: 40px 0 0 0;
+}
+.alert-body .info-body {
+	margin-top: 7%;
+	margin-left: 9%;
+}
+.alert-body .info-body img {
+	height: 40px;
+	margin-top: -7px;
+	margin-left: 5px;
+}
+
+/*尾部*/
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 90px;
+	width: 100%;
+	z-index: 100;
+}
+.left-option {
+	float: left;
+	padding-top: 12px;
+}
+.left-option li{
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 2px 2px 18px;
+}
+.prev {
+	background: url('../../images/prev.png') no-repeat;
+    background-size: cover; 
+}
+.next {
+	background: url('../../images/next.png') no-repeat;
+	background-size: cover; 
+}
+
+.right-option {
+	float: right;
+	padding-top: 12px;
+	padding-right: 5px;
+}
+.right-option li {
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.reset {
+	background: url('../../images/reset.png') no-repeat;
+	background-size: contain; 
+	background-position: 9px;
+	cursor: pointer;
+}
+.info {
+	background: url('../../images/info.png') no-repeat;
+	background-size: cover;
+	background-position: -9px;
+	cursor: pointer;
+}
+
+
+/*主页面*/
+.main {
+	background-color: #c2ece7;
+	margin: 0 13px;
+	min-height: 570px
+}
+// .type1-explain-dialogue {
+// 	font-family: 'Comic Sans Blod'
+// }
+.explain-picture {
+	display: inline-block;
+	width: 49.5%;
+	text-align: center;
+	margin-right: -15%;
+	margin-left: 5%;
+}
+.explain-picture img {
+	width: 50%;
+	border: 3px solid white;
+	border-radius: 0 0 20px 20px;
+}
+.img-select {
+	border-radius: 4px 4px 20px 20px;
+	box-shadow: 0 0 0 3px yellow, 0 0 0 6px red;
+}
+.explain-word {
+	font-size: 36px;
+	font-family: 'Comic Sans Blod';
+	margin: 15px 0;
+	height: 42px;
+	
+}
+.explain-word span {
+	cursor: pointer;
+	text-shadow: -2px -3px 1px #fff, 2px 3px 1px #fff;
+}
+
+
+
+
