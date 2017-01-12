@@ -18,6 +18,9 @@ ul {
 ul li {
 	list-style-type:none;
 }
+.hide {
+	display: none;
+}
 
 /*头部*/
 .header {
@@ -130,9 +133,6 @@ ul li {
 	margin: 0 13px;
 	min-height: 570px
 }
-// .type1-explain-dialogue {
-// 	font-family: 'Comic Sans Blod'
-// }
 .explain-picture {
 	display: inline-block;
 	width: 49.5%;
@@ -146,7 +146,7 @@ ul li {
 	border-radius: 0 0 20px 20px;
 }
 .img-select {
-	border-radius: 4px 4px 20px 20px;
+	border-radius: 4px 4px 20px 20px!important;
 	box-shadow: 0 0 0 3px yellow, 0 0 0 6px red;
 }
 .explain-word {
@@ -160,7 +160,6 @@ ul li {
 	cursor: pointer;
 	text-shadow: -2px -3px 1px #fff, 2px 3px 1px #fff;
 }
-
 
 
 
