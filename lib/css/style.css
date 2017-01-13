@@ -21,7 +21,12 @@ ul li {
 .hide {
 	display: none;
 }
-
+.red {
+	color: red;
+}
+.black {
+	color: black;
+}
 /*头部*/
 .header {
 	height: 70px;
@@ -94,11 +99,13 @@ ul li {
 	margin: 0 2px 2px 18px;
 }
 .prev {
-	background: url('../../images/prev.png') no-repeat;
+	background-image: none;
+	background-repeat: no-repeat;
     background-size: cover; 
 }
 .next {
-	background: url('../../images/next.png') no-repeat;
+	background-image: url('../../images/next.png');
+	background-repeat: no-repeat;
 	background-size: cover; 
 }
 
@@ -158,7 +165,12 @@ ul li {
 }
 .explain-word span {
 	cursor: pointer;
+}
+.explain-word .word-select {
 	text-shadow: -2px -3px 1px #fff, 2px 3px 1px #fff;
+}
+.explain-word span:hover {
+	color: red
 }
 
 
